@@ -15,3 +15,5 @@ class Student:
             return'不及格'
 
 # 这是我的第一个Git版本管理练习
+# 练习撤销暂存操作
+# Git reset安全测试
