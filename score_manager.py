@@ -7,3 +7,4 @@ def get_result(average):
         return '及格'
     else
         return '不及格'
+# Git revert practice
