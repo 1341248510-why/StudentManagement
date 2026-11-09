@@ -7,7 +7,7 @@ class Student:
         self.english= english
 
     def get_total_score(self):
-        return self.chinese+self.math+self.english
+        return sum([self.chinese, self.math, self.english])
     def get_result(self):
         if self.get_total_score()/3>=60:
             return'及格'
